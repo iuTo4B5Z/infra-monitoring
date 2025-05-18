@@ -1,0 +1,12 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: 'codelab-monitor'
+scrape_configs:
+  - job_name: 'vcsa'
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['telegraf:9001']
+  - job_name: 'vmware'
+    static_configs:
+      - targets: ['vmware_exporter:9272']
