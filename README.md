@@ -22,5 +22,5 @@ This is the Docker and Docker Compose configuration for our monitoring system, u
 `chmod +x ./infra-monitoring-main/setup.sh`  
 - Run the setup script:  
 `./infra-monitoring-main/setup.sh`  
-- Change the permissions on the `data/grafana` directory:
+- Change the permissions on the `data/grafana` directory:  
 `sudo chown 104:104 ../data/grafana`
