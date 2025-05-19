@@ -1,4 +1,4 @@
-# infra-monitoring
+# Infrastructure monitoring
 
 ## What is this?
 This is the Docker and Docker Compose configuration for our monitoring system, using Grafana, Prometheus, Telegraf, InfluxDB and VMware Exporter.
